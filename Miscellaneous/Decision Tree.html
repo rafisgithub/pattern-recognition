@@ -1,0 +1,495 @@
+
+<!-- saved from url=(0043)https://www.saedsayad.com/decision_tree.htm -->
+<html class="gr__saedsayad_com"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Decision Tree</title>
+<link rel="icon" type="image/png" href="https://www.saedsayad.com/logosmart.png">
+
+<script type="text/javascript" async="" src="./Decision Tree_files/ga.js.download"></script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20171535-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<style>
+#carbonads {
+  position: fixed;
+  top: 40px;
+  display: block;
+  overflow: hidden;
+  padding: 1em;
+  max-width: 130px;
+  border: solid 1px hsl(0, 0%, 94%);
+  background-color: hsl(0, 0%, 98%);
+  text-align: center;
+  font-size: 12px;
+  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+#carbonads a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#carbonads a:hover {
+  color: inherit;
+}
+
+#carbonads span {
+  display: block;
+  overflow: hidden;
+}
+
+.carbon-img {
+  display: block;
+  margin: 0 auto 1em;
+}
+
+.carbon-text {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.carbon-poweredby {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 9px;
+  line-height: 1;
+}
+</style>
+
+<script id="_carbonads_projs" type="text/javascript" src="./Decision Tree_files/CKYIL5QI.json"></script></head>
+
+<body data-gr-c-s-loaded="true">
+
+<table border="0" width="925" height="664">
+  <tbody><tr>
+    <td height="21"><font face="Calibri"><a href="https://www.saedsayad.com/data_mining_map.htm">Map</a>
+      &gt; <a href="https://www.saedsayad.com/data_mining.htm">Data Science</a> &gt; <a href="https://www.saedsayad.com/predicting_the_future.htm"> Predicting the Future</a> &gt;
+      <a href="https://www.saedsayad.com/modeling.htm"> Modeling</a> &gt;
+      <a href="https://www.saedsayad.com/classification.htm">
+      Classification</a> &gt; Decision Tree</font></td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100">
+    <script async="" type="text/javascript" src="./Decision Tree_files/carbon.js.download" id="_carbonads_js"></script><div id="carbonads"><span><span class="carbon-wrap"><a href="https://cartwheeltechnologies.com.ng/" class="carbon-img" target="_blank" rel="noopener"><img src="./Decision Tree_files/9c7899ae5d416cb6d01806e2f8507ce1.png" alt="ads via Carbon" border="0" height="100" width="130" style="max-width: 130px;"></a><a href="https://cartwheeltechnologies.com.ng/" class="carbon-text" target="_blank" rel="noopener">Use machine Intelligence to improve efficiency and boost profit</a></span><a href="http://carbonads.net/?utm_source=saedsayadcom&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon" class="carbon-poweredby" target="_blank" rel="noopener">ads via Carbon</a></span></div>
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <font face="Calibri" color="#008000">&nbsp;</font>
+    </td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="25">
+      <h3 align="center"><font face="Calibri" color="#008000">Decision Tree -
+      Classification</font></h3>
+    </td>
+    <td height="25" width="50">
+    </td>
+    <td height="25" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="86"><font face="Calibri">Decision tree builds classification or
+      regression models in the form of a tree structure. It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed.
+      The final result is a tree with <b>decision nodes</b> and <b>leaf nodes</b>.
+      A decision node (e.g., Outlook) has two or more branches (e.g., Sunny,
+      Overcast and Rainy).
+      Leaf node (e.g., Play) represents a classification or decision. The topmost decision node in a tree which corresponds to
+      the best predictor called <b>root node</b>. Decision trees can
+      handle both categorical and numerical data.&nbsp;</font></td>
+    <td height="86" width="50"></td>
+    <td height="86" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21">
+      <p align="center"></p></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="224">
+      <p align="center"><img border="0" src="./Decision Tree_files/Decision_Tree_1.png" width="661" height="248"></p></td>
+    <td height="224" width="50">
+    </td>
+    <td height="224" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">&nbsp;&nbsp;</td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="25">
+      <h4><font face="Calibri"><b>Algorithm</b></font></h4>
+    </td>
+    <td height="25" width="50">
+    </td>
+    <td height="25" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="59"><font face="Calibri">The core algorithm for building decision trees
+      called <b>ID3</b> by J. R. Quinlan which employs a top-down, greedy search through the space of possible
+      branches with no backtracking. ID3 uses <i> Entropy</i> and <i> Information Gain</i> to
+      construct a decision tree. In </font><font face="Calibri"> ZeroR model there is no predictor, in OneR model we try to find the single best predictor, naive Bayesian includes all predictors using Bayes' rule and
+      the independence assumptions between predictors but </font><font face="Calibri">decision
+      tree includes all predictors with the dependence assumptions between
+      predictors.</font></td>
+    <td height="59" width="50"></td>
+    <td height="59" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21"></td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21"><font face="Calibri"><b>Entropy</b></font></td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21"><font face="Calibri"> A decision tree is built top-down from a root node and involves partitioning the data into subsets that contain instances with similar
+      values (homogenous). ID3 algorithm uses entropy to calculate the homogeneity of a sample.
+      If the sample is completely homogeneous the entropy is zero and if the
+      sample is an equally divided it has entropy of one.</font></td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21">&nbsp;</td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21">
+      <p align="center"><img border="0" src="./Decision Tree_files/Entropy.png" width="349" height="297"></p></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21"><font face="Calibri">To build a decision tree, we need to
+      calculate two types of entropy using frequency tables as follows:</font></td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21"></td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21"><font face="Calibri">a) Entropy using the frequency table of
+      one attribute:</font></td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21">
+      <p align="center"><img border="0" src="./Decision Tree_files/Entropy_3.png" width="446" height="273"></p></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <font face="Calibri">b) Entropy using the frequency table of two
+      attributes:</font></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <p align="center"><img border="0" src="./Decision Tree_files/Entropy_2.png" width="491" height="349"></p></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21"><font face="Calibri">&nbsp;</font></td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21"><font face="Calibri"><b>Information Gain</b></font></td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21"><font face="Calibri">The information gain is based on the decrease in entropy after a dataset is split on an attribute.
+      Constructing a decision tree is all about finding attribute that returns
+      the highest information gain (i.e., the most homogeneous branches).</font></td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21">
+    </td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <i>Step 1</i><font face="Calibri">: Calculate entropy of the target.&nbsp;</font></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <p align="center"><img border="0" src="./Decision Tree_files/Entropy_target.png" width="328" height="112"></p></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <i>Step 2</i><font face="Calibri">:
+      The dataset is then split on the different attributes. The entropy for each branch is calculated. Then it is added proportionally, to get total entropy for the
+      split. The resulting entropy is subtracted from the entropy before the split.
+      The result is the Information Gain, or decrease in entropy.&nbsp;</font></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <p align="center"><img border="0" src="./Decision Tree_files/Entropy_attributes.png" width="445" height="259"></p></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <p align="center"><img border="0" src="./Decision Tree_files/Entropy_gain.png" width="411" height="160"></p></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <i>Step 3</i><font face="Calibri">: Choose attribute with the largest
+      information gain as the decision node, divide the dataset by its branches
+      and repeat the same process on every branch.</font></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <p align="center"><img border="0" src="./Decision Tree_files/Entropy_attribute_best.png" width="211" height="137"></p></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <p align="center"><img border="0" src="./Decision Tree_files/decision_tree_slices.png" width="446" height="224"></p></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <i>Step 4a</i><font face="Calibri">:
+      A branch with entropy of 0 is a leaf node.</font></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <p align="center"><img border="0" src="./Decision Tree_files/Entropy_overcast.png" width="532" height="241"></p></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <i>Step 4b</i><font face="Calibri">:
+      A branch with entropy more than 0 needs further splitting.</font></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <p align="center"><img border="0" src="./Decision Tree_files/Entropy_Sunny.png" width="508" height="283"></p></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <i>Step 5</i><font face="Calibri">:
+      The ID3 algorithm is run recursively on the non-leaf branches, until all data is classified.</font></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      &nbsp;</td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <p align="left">&nbsp;</p></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <h3 align="left"><font face="Calibri"><b>Decision Tree to Decision Rules</b></font></h3>
+    </td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21"><font face="Calibri">A decision tree can easily be
+      transformed to a set of rules by mapping from the root node to the leaf
+      nodes one by one.</font></td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21">
+      <p align="center"><img border="0" src="./Decision Tree_files/Decision_rules.png" width="506" height="279"></p></td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21"></td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21"></td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21">
+      <h3><font face="Calibri"><b>Decision Trees - Issues</b></font></h3>
+    </td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">
+      <ul>
+        <li><font face="Calibri">Working with continuous attributes (<a href="https://www.saedsayad.com/binning.htm">binning</a>)</font></li>
+        <li><font face="Calibri"><a href="https://www.saedsayad.com/decision_tree_overfitting.htm">Avoiding
+          overfitting</a></font></li>
+        <li><font face="Calibri"><a href="https://www.saedsayad.com/decision_tree_super.htm">Super Attributes</a> (attributes with many unique values)</font></li>
+        <li><font face="Calibri">Working with <a href="https://www.saedsayad.com/missing_values.htm">missing
+          values</a></font></li>
+      </ul>
+    </td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">&nbsp;</td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21">
+    <table border="0" width="100%">
+      <tbody><tr>
+        <td width="8%"><font face="Calibri"><a href="https://www.saedsayad.com/decision_tree_exercise.htm"><span style="background-color: #CCFFFF">Exercise</span></a></font>
+        </td>
+        <td width="58%"><a href="https://www.saedsayad.com/datasets/Tree.txt" target="_blank"><img border="0" src="./Decision Tree_files/R.png" width="40" height="31"></a></td>
+        <td width="34%"></td>
+      </tr>
+    </tbody></table>
+    </td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21">&nbsp;</td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+  <tr>
+    <td height="21">
+    <img border="0" src="./Decision Tree_files/invent.png" width="27" height="24">
+      <font face="Calibri">Try to invent a new algorithm to construct a decision
+      tree from data using <a href="https://www.saedsayad.com/categorical_categorical.htm">Chi<sup>2</sup>
+      test</a>.</font>
+    </td>
+    <td height="21" width="50">
+    </td>
+    <td height="21" width="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="21"></td>
+    <td height="21" width="50"></td>
+    <td height="21" width="100"></td>
+  </tr>
+</tbody></table>
+
+
+
+
+</body></html>

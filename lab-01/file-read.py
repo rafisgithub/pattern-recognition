@@ -1,7 +1,7 @@
 import pandas as pd
 
 dataset = pd.read_csv("./data/OnlineShoppingStatus.csv")
-# print(dataset)
+print(dataset)
 
 # dataset = dataset.iloc[:,0:3]
 
